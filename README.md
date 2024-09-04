@@ -25,39 +25,49 @@ Cálculo:
 
 Vamos fazer as somas manualmente para cada iteração:
 
-Quando 'K = 1':' SOMA = 0 + 1 = 1
-Quando 'K = 2':' SOMA = 1 + 2 = 3
-Quando 'K = 3':' SOMA = 3 + 3 = 6
-Quando 'K = 4':' SOMA = 6 + 4 = 10
-Quando 'K = 5':' SOMA = 10 + 5 = 15
-Quando 'K = 6':' SOMA = 15 + 6 = 21
-Quando 'K = 7':' SOMA = 21 + 7 = 28
-Quando 'K = 8':' SOMA = 28 + 8 = 36
-Quando 'K = 9':' SOMA = 36 + 9 = 45
-Quando 'K = 10':' SOMA = 45 + 10 = 55
-Quando 'K = 11':' SOMA = 55 + 11 = 66
-Quando 'K = 12':' SOMA = 66 + 12 = 78
-Quando 'K = 13':' SOMA = 78 + 13 = 91
+Quando 'K = 1':'SOMA = 0 + 1 = 1'
+
+Quando 'K = 2':'SOMA = 1 + 2 = 3'
+
+Quando 'K = 3':'SOMA = 3 + 3 = 6'
+
+Quando 'K = 4':'SOMA = 6 + 4 = 10'
+
+Quando 'K = 5':'SOMA = 10 + 5 = 15'
+
+Quando 'K = 6':'SOMA = 15 + 6 = 21'
+
+Quando 'K = 7':'SOMA = 21 + 7 = 28'
+
+Quando 'K = 8':'SOMA = 28 + 8 = 36'
+
+Quando 'K = 9':'SOMA = 36 + 9 = 45'
+
+Quando 'K = 10':'SOMA = 45 + 10 = 55'
+
+Quando 'K = 11':'SOMA = 55 + 11 = 66'
+
+Quando 'K = 12':'SOMA = 66 + 12 = 78'
+
+Quando 'K = 13':'SOMA = 78 + 13 = 91'
+
 ______________________________________________________________________________________________________________________________________________________________________
 Questão 2:
 
 Explicação do Código:
 
 1 - Função 'pertence_fibonacci(n)':
-
 Inicializa os primeiros dois números da sequência de Fibonacci ('0' e '1').
 Usa um loop 'while' para gerar números da sequência até que o valor de 'b' seja maior ou igual ao número informado ('n').
 Verifica se o número informado ('n') é igual ao último valor de 'b' gerado na sequência. Se sim, retorna 'True', indicando que o número pertence à sequência; caso contrário, retorna 'False'.
 
 2 - Função 'main()':
-
 Solicita ao usuário que informe um número e o converte para um inteiro.
 Usa a função 'pertence_fibonacci()' para verificar se o número informado pertence à sequência.
 Exibe uma mensagem apropriada com base no resultado da verificação.
 Inclui tratamento de exceção para garantir que o usuário informe um número inteiro válido.
 
 3 - Bloco 'if __name__ == "__main__":':
-
 Garante que a função 'main()' seja executada apenas quando o script é executado diretamente e não quando importado como módulo.
 
 ______________________________________________________________________________________________________________________________________________________________________
