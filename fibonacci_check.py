@@ -1,3 +1,4 @@
+# Questão 02 - Estagio - São Paulo
 def pertence_fibonacci(n):
     """
     Verifica se um número pertence à sequência de Fibonacci.
