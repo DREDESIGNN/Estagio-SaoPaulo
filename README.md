@@ -4,7 +4,9 @@ Técnica:
 Questão 1:
 
 O programa soma todos os números de 1 até 13.
+
 Resultado:
+
 Ao final do processamento, o valor da variável SOMA será 91.
 
 Passo a passo do código:
@@ -12,12 +14,15 @@ Passo a passo do código:
 1 - Inicialização:
 
 'INDICE' é definido como 13.
+
 'SOMA' é inicializada com 0.
+
 'K' é inicializada com 0.
 
 2 - Loop (Enquanto K < INDICE):
 
 A variável 'K' é incrementada em 1 a cada iteração ('K = K + 1').
+
 O valor de 'K' é adicionado à variável 'SOMA' a cada iteração ('SOMA = SOMA + K').
 
 3 - Condições de execução:
@@ -126,7 +131,9 @@ Questão 5:
 Explicação:
 
 -A função 'inverter_string' recebe uma string como argumento.
+
 -A expressão 'string[::-1]' é usada para inverter a string. Isso funciona porque o slicing '[start:stop:step]' 
  permite especificar o início, o fim e o passo do fatiamento. Ao usar '-1' como passo, você inverte a string.
+ 
 -O programa então imprime a string original e a string invertida.
 
