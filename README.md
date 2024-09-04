@@ -67,15 +67,20 @@ Explicação do Código:
 1 - Função 'pertence_fibonacci(n)':
 
 Inicializa os primeiros dois números da sequência de Fibonacci ('0' e '1').
+
 Usa um loop 'while' para gerar números da sequência até que o valor de 'b' seja maior ou igual ao número informado ('n').
+
 Verifica se o número informado ('n') é igual ao último valor de 'b' gerado na sequência. Se sim, retorna 'True', 
 indicando que o número pertence à sequência; caso contrário, retorna 'False'.
 
 2 - Função 'main()':
 
 Solicita ao usuário que informe um número e o converte para um inteiro.
+
 Usa a função 'pertence_fibonacci()' para verificar se o número informado pertence à sequência.
+
 Exibe uma mensagem apropriada com base no resultado da verificação.
+
 Inclui tratamento de exceção para garantir que o usuário informe um número inteiro válido.
 
 3 - Bloco 'if __name__ == "__main__":':
