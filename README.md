@@ -2,11 +2,13 @@
 Técnica:
 
 Questão 1:
+
 O programa soma todos os números de 1 até 13.
 Resultado:
 Ao final do processamento, o valor da variável SOMA será 91.
 
 Passo a passo do código:
+
 1 - Inicialização:
 'INDICE' é definido como 13.
 'SOMA' é inicializada com 0.
@@ -20,6 +22,7 @@ O valor de 'K' é adicionado à variável 'SOMA' a cada iteração ('SOMA = SOMA
 O loop continua até que 'K' seja igual a 13.
 
 Cálculo:
+
 Vamos fazer as somas manualmente para cada iteração:
 
 Quando 'K = 1':' SOMA = 0 + 1 = 1
@@ -39,24 +42,29 @@ ________________________________________________________________________________
 Questão 2:
 
 Explicação do Código:
+
 1 - Função 'pertence_fibonacci(n)':
+
 Inicializa os primeiros dois números da sequência de Fibonacci ('0' e '1').
 Usa um loop 'while' para gerar números da sequência até que o valor de 'b' seja maior ou igual ao número informado ('n').
 Verifica se o número informado ('n') é igual ao último valor de 'b' gerado na sequência. Se sim, retorna 'True', indicando que o número pertence à sequência; caso contrário, retorna 'False'.
 
 2 - Função 'main()':
+
 Solicita ao usuário que informe um número e o converte para um inteiro.
 Usa a função 'pertence_fibonacci()' para verificar se o número informado pertence à sequência.
 Exibe uma mensagem apropriada com base no resultado da verificação.
 Inclui tratamento de exceção para garantir que o usuário informe um número inteiro válido.
 
 3 - Bloco 'if __name__ == "__main__":':
+
 Garante que a função 'main()' seja executada apenas quando o script é executado diretamente e não quando importado como módulo.
 
 ______________________________________________________________________________________________________________________________________________________________________
 Questão 3:
 
 Explicação do Código:
+
 1 - Função 'carregar_dados_json(caminho_arquivo)':
 Carrega os dados de faturamento a partir de um arquivo JSON e retorna a lista de faturamento diário.
 
@@ -75,6 +83,7 @@ ________________________________________________________________________________
 Questão 4:
 
 Explicação do Código:
+
 1 - Dicionário 'faturamento':
 Armazena os valores de faturamento para cada estado.
 
@@ -86,3 +95,7 @@ Itera sobre cada item no dicionário faturamento e calcula o percentual correspo
 
 4 - Exibição dos resultados:
 Imprime o percentual de cada estado e o faturamento total.
+
+________________________________________________________________________________________________________________________________________________________________________
+Questão 5:
+
